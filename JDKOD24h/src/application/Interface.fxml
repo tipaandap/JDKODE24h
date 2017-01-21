@@ -6,8 +6,11 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
+<<<<<<< HEAD
 <?import javafx.scene.text.*?>
 <?import javafx.scene.web.*?>
+=======
+>>>>>>> master
 
 <AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
   <!-- TODO Add Nodes -->
@@ -16,6 +19,10 @@
       <children>
         <GridPane GridPane.columnIndex="0" GridPane.rowIndex="1">
           <children>
+<<<<<<< HEAD
+=======
+            <ImageView fitHeight="561.2499694824219" fitWidth="748.3333725638666" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+>>>>>>> master
             <GridPane GridPane.columnIndex="0" GridPane.rowIndex="0">
               <children>
                 <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="8" />
@@ -24,8 +31,13 @@
                 <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                 <GridPane GridPane.columnIndex="1" GridPane.rowIndex="0">
                   <children>
+<<<<<<< HEAD
                     <Label prefWidth="82.0" text="Joueur " GridPane.columnIndex="0" GridPane.rowIndex="0" />
                     <Label prefWidth="49.0" text="Label" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+=======
+                    <Label text="Label" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                    <Label text="Label" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+>>>>>>> master
                   </children>
                   <columnConstraints>
                     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -53,7 +65,10 @@
                 <RowConstraints maxHeight="275.0" minHeight="10.0" prefHeight="97.0" vgrow="SOMETIMES" />
               </rowConstraints>
             </GridPane>
+<<<<<<< HEAD
             <WebView prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+=======
+>>>>>>> master
           </children>
           <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" maxWidth="499.0" minWidth="10.0" prefWidth="194.0" />
@@ -63,6 +78,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
           </rowConstraints>
         </GridPane>
+<<<<<<< HEAD
         <Label prefWidth="402.0" text="1024 BORNES" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER">
           <font>
             <Font name="Times New Roman Bold" size="50.0" />
@@ -72,6 +88,13 @@
           <children>
             <Label prefWidth="115.0" text="Les joueurs" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER" />
             <ComboBox prefHeight="21.0" prefWidth="324.0" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+=======
+        <Label text="Label" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <GridPane GridPane.columnIndex="0" GridPane.rowIndex="2">
+          <children>
+            <Label prefWidth="115.0" text="Les joueurs" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <ComboBox prefHeight="21.0" prefWidth="324.0" GridPane.columnIndex="0" GridPane.rowIndex="1">
+>>>>>>> master
               <items>
                 <FXCollections fx:factory="observableArrayList">
                   <String fx:value="Item 1" />
@@ -80,12 +103,18 @@
                 </FXCollections>
               </items>
             </ComboBox>
+<<<<<<< HEAD
             <Button mnemonicParsing="false" prefWidth="100.9998779296875" text="Nouvelle partie" GridPane.columnIndex="2" GridPane.rowIndex="0" />
             <Button mnemonicParsing="false" text="Distribution Cartes" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+=======
+            <Button mnemonicParsing="false" prefWidth="100.0" text="Nouvelle partie" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+            <Button mnemonicParsing="false" text="Règles du jeu" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+>>>>>>> master
             <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="1" />
             <GridPane GridPane.columnIndex="2" GridPane.rowIndex="1">
               <children>
                 <Label prefWidth="115.0" text="Nombre de joueurs" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+<<<<<<< HEAD
                 <ComboBox GridPane.columnIndex="1" GridPane.rowIndex="0">
                   <items>
                     <FXCollections fx:factory="observableArrayList">
@@ -95,6 +124,8 @@
                     </FXCollections>
                   </items>
                 </ComboBox>
+=======
+>>>>>>> master
               </children>
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" maxWidth="170.0" minWidth="10.0" prefWidth="123.0" />
