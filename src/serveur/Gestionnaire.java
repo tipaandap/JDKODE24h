@@ -6,17 +6,11 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-import javax.servlet.http.HttpUpgradeHandler;
-import javax.servlet.http.WebConnection;
-import javax.xml.ws.spi.http.HttpExchange;
-
-import java.net.InetSocketAddress;
-import java.util.concurrent.Executors;
-
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpHandler;
-import com.sun.net.httpserver.HttpServer;
+import com.sun.net.httpserver.HttpExchange;
 
+@SuppressWarnings("restriction")
 public class Gestionnaire implements HttpHandler{
 	
 	public void handle(HttpExchange exchange) throws IOException {
@@ -32,18 +26,11 @@ public class Gestionnaire implements HttpHandler{
 	      Iterator<String> iter = keySet.iterator();
 	      while (iter.hasNext()) {
 	        String key = iter.next();
-	        List values = requeteEntete.get(key);
+	        List<String> values = requeteEntete.get(key);
 	        String s = key + " = " + values.toString() + "";
 	        reponse.write(s.getBytes());
 	      }
 	      reponse.close();
 	    }
 	  }
-
-	@Override
-	public void handle(com.sun.net.httpserver.HttpExchange arg0) throws IOException {
-		// TODO Auto-generated method stub
-		
-	}
-	
 }
